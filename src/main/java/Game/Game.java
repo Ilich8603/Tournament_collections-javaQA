@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Game {
-    Map<String, Player> players = new HashMap<>();
+    private Map<String, Player> players = new HashMap<>();
 
     public void register(Player player) {
         players.put(player.getName(), player);
